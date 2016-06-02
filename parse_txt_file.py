@@ -102,7 +102,7 @@ for line in file_read:
 	consanguity = data[consanguity_col]
 	outcome = data[outcome_col]
 	cardiac_abnormality = data[cardiac_abnormality_col]
-	thrombocytosis = data[thrombocytosis]
+	thrombocytosis = data[thrombocytosis_col]
 	large_platelets = data[large_platelets_col]
 	skeletal_abnormaltiy = data[skeletal_abnormaltiy_col]
 	devlpmt_delay = data[devlpmt_delay_col]
@@ -157,6 +157,9 @@ for line in file_read:
 
 	# Create a dictionary of symptoms
 
+	# Create a dictionary of database information
+	db_dict = {'patient_name':patient_name, 'data_source':data_source}
+	
 pp.pprint (gene_dict)
 pp.pprint (patient_dict)
 file_close = file_open.close()

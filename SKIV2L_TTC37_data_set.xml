@@ -1,0 +1,3133 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Blair Heater</Author>
+  <LastAuthor>Blair Heater</LastAuthor>
+  <Created>2016-06-02T14:51:44Z</Created>
+  <Company>HudsonAlpha Institute for Biotechnology</Company>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14620</WindowHeight>
+  <WindowWidth>50460</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>20</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s74">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s80">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="SKIV2L_TTC37_data_set.txt">
+  <Table ss:ExpandedColumnCount="38" ss:ExpandedRowCount="93" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="40"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Patient</Data></Cell>
+    <Cell><Data ss:Type="String">Patient # from paper</Data></Cell>
+    <Cell><Data ss:Type="String">Data source</Data></Cell>
+    <Cell><Data ss:Type="String">Age, y</Data></Cell>
+    <Cell><Data ss:Type="String">Gestation (weeks out of 40)</Data></Cell>
+    <Cell><Data ss:Type="String">Birth weight (kg)</Data></Cell>
+    <Cell><Data ss:Type="String">Age at onset, d</Data></Cell>
+    <Cell><Data ss:Type="String">Intractable diarrhea</Data></Cell>
+    <Cell><Data ss:Type="String">Failure to thrive</Data></Cell>
+    <Cell><Data ss:Type="String">Facial dysmorphism (hypertelorism &amp; wide forhead)</Data></Cell>
+    <Cell><Data ss:Type="String">Abnormal hair</Data></Cell>
+    <Cell><Data ss:Type="String">Trichorrhexis nodosa</Data></Cell>
+    <Cell><Data ss:Type="String">Intrauterine Growth Retardation (IUGR)</Data></Cell>
+    <Cell><Data ss:Type="String">Immunodeficiency</Data></Cell>
+    <Cell><Data ss:Type="String">Peg teeth</Data></Cell>
+    <Cell><Data ss:Type="String">Skin Abnormalities (hyperpigmentation)</Data></Cell>
+    <Cell><Data ss:Type="String">Café'-au-lait spots</Data></Cell>
+    <Cell><Data ss:Type="String">Mental retardation</Data></Cell>
+    <Cell><Data ss:Type="String">PN treatment age, m</Data></Cell>
+    <Cell><Data ss:Type="String">PN duration, m</Data></Cell>
+    <Cell><Data ss:Type="String">Gene Mutated</Data></Cell>
+    <Cell><Data ss:Type="String">Type of mutation</Data></Cell>
+    <Cell><Data ss:Type="String">cDNA mutation 1</Data></Cell>
+    <Cell><Data ss:Type="String">Protein mutation 1</Data></Cell>
+    <Cell><Data ss:Type="String">Type of mutation</Data></Cell>
+    <Cell><Data ss:Type="String">cDNA mutation 2</Data></Cell>
+    <Cell><Data ss:Type="String">Protein mutation 2</Data></Cell>
+    <Cell><Data ss:Type="String">Villous Atrophy</Data></Cell>
+    <Cell><Data ss:Type="String">Liver biopsy</Data></Cell>
+    <Cell><Data ss:Type="String">Ethnicity</Data></Cell>
+    <Cell><Data ss:Type="String">Sex</Data></Cell>
+    <Cell><Data ss:Type="String">Consanguineous family</Data></Cell>
+    <Cell><Data ss:Type="String">Outcome</Data></Cell>
+    <Cell><Data ss:Type="String">Cardiac abnormalities</Data></Cell>
+    <Cell><Data ss:Type="String">Thrombocytosis</Data></Cell>
+    <Cell><Data ss:Type="String">Large platelets</Data></Cell>
+    <Cell><Data ss:Type="String">Skeletal abnormalities</Data></Cell>
+    <Cell><Data ss:Type="String">Development</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">II-1</Data></Cell>
+    <Cell><Data ss:Type="String">JPNG(http://journals.lww.com/jpgn/Abstract/2015/03000/Expanding_Phenotypic_and_Allelic_Heterogeneity_of.18.aspx)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">0.33300000000000002</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">SKIV2L</Data></Cell>
+    <Cell><Data ss:Type="String">Deletion</Data></Cell>
+    <Cell><Data ss:Type="String">c.3559_3579del</Data></Cell>
+    <Cell><Data ss:Type="String">p.1187_1193del</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Fibrosis</Data></Cell>
+    <Cell><Data ss:Type="String">Saudi</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">II-2</Data></Cell>
+    <Cell><Data ss:Type="String">JPNG(http://journals.lww.com/jpgn/Abstract/2015/03000/Expanding_Phenotypic_and_Allelic_Heterogeneity_of.18.aspx)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">0.46700000000000003</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="String">SKIV2L</Data></Cell>
+    <Cell><Data ss:Type="String">Deletion</Data></Cell>
+    <Cell><Data ss:Type="String">c.3559_3579del</Data></Cell>
+    <Cell><Data ss:Type="String">p.1187_1193del</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Fibrosis</Data></Cell>
+    <Cell><Data ss:Type="String">Saudi</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">II-3</Data></Cell>
+    <Cell><Data ss:Type="String">JPNG(http://journals.lww.com/jpgn/Abstract/2015/03000/Expanding_Phenotypic_and_Allelic_Heterogeneity_of.18.aspx)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">0.46700000000000003</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">SKIV2L</Data></Cell>
+    <Cell><Data ss:Type="String">Deletion</Data></Cell>
+    <Cell><Data ss:Type="String">c.3559_3579del</Data></Cell>
+    <Cell><Data ss:Type="String">p.1187_1193del</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Saudi</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">II-9</Data></Cell>
+    <Cell><Data ss:Type="String">JPNG(http://journals.lww.com/jpgn/Abstract/2015/03000/Expanding_Phenotypic_and_Allelic_Heterogeneity_of.18.aspx)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">0.46700000000000003</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Ongoing</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">Nonsense</Data></Cell>
+    <Cell><Data ss:Type="String">c.C4102T</Data></Cell>
+    <Cell><Data ss:Type="String">p.Q1368X</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Mild</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Saudi</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">II-12</Data></Cell>
+    <Cell><Data ss:Type="String">JPNG(http://journals.lww.com/jpgn/Abstract/2015/03000/Expanding_Phenotypic_and_Allelic_Heterogeneity_of.18.aspx)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">0.13300000000000001</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">7.5</Data></Cell>
+    <Cell><Data ss:Type="String">SKIV2L</Data></Cell>
+    <Cell><Data ss:Type="String">Deletion</Data></Cell>
+    <Cell><Data ss:Type="String">c.3559_3579del</Data></Cell>
+    <Cell><Data ss:Type="String">p.1187_1193del</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Saudi</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">II-16</Data></Cell>
+    <Cell><Data ss:Type="String">JPNG(http://journals.lww.com/jpgn/Abstract/2015/03000/Expanding_Phenotypic_and_Allelic_Heterogeneity_of.18.aspx)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">0.46700000000000003</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Saudi</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">LF</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.sciencedirect.com.fetch.mhsl.uab.edu/science?_ob=ArticleListURL&amp;_method=list&amp;_ArticleListID=-1000085239&amp;_sort=r&amp;_st=13&amp;view=c&amp;md5=e7bcd59eddac2d0774ac5fd256ff45ba&amp;searchtype=a</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">8.5</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.85</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">0.56699999999999995</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Enteral nutrition</Data></Cell>
+    <Cell><Data ss:Type="String">SKIV2L</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.1891G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Gly631Ser</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.3187C &gt; T</Data></Cell>
+    <Cell><Data ss:Type="String">p.Arg1063*</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Chinese</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">Atrial_septal_defect,bicuspid_aortic_valve</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">++</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">LL</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.sciencedirect.com.fetch.mhsl.uab.edu/science?_ob=ArticleListURL&amp;_method=list&amp;_ArticleListID=-1000085239&amp;_sort=r&amp;_st=13&amp;view=c&amp;md5=e7bcd59eddac2d0774ac5fd256ff45ba&amp;searchtype=a</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2.8</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">0.33300000000000002</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Enteral nutrition</Data></Cell>
+    <Cell><Data ss:Type="String">SKIV2L</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.1891G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Gly631Ser</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.3187C &gt; T</Data></Cell>
+    <Cell><Data ss:Type="String">p.Arg1063*</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Chinese</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">Bbicuspid_aortic_valve,aortic_stenosis</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">CHT</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.sciencedirect.com.fetch.mhsl.uab.edu/science?_ob=ArticleListURL&amp;_method=list&amp;_ArticleListID=-1000085239&amp;_sort=r&amp;_st=13&amp;view=c&amp;md5=e7bcd59eddac2d0774ac5fd256ff45ba&amp;searchtype=a</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.1000000000000001</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.3426dupA </Data></Cell>
+    <Cell><Data ss:Type="String">p.Ala1143Serfs*4</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Chinese</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">_</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">1C</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/20176027)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">died 0.5</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">Stop</Data></Cell>
+    <Cell><Data ss:Type="String">c.2808G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Trp936X</Data></Cell>
+    <Cell><Data ss:Type="String">Stop</Data></Cell>
+    <Cell><Data ss:Type="String">c.2808G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Trp936x</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Fibrosis,siderosis</Data></Cell>
+    <Cell><Data ss:Type="String">Indian</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Died</Data></Cell>
+    <Cell><Data ss:Type="String">VSD</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="String">1D</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/20176027)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">died 0.5</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">Stop</Data></Cell>
+    <Cell><Data ss:Type="String">c.2808G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Trp936X</Data></Cell>
+    <Cell><Data ss:Type="String">Stop</Data></Cell>
+    <Cell><Data ss:Type="String">c.2808G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Trp936x</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Fibrosis,siderosis</Data></Cell>
+    <Cell><Data ss:Type="String">Indian</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="String">2C</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/20176027)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.345</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">210</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">Missense</Data></Cell>
+    <Cell><Data ss:Type="String">c.3847G&gt;A </Data></Cell>
+    <Cell><Data ss:Type="String">p.Asp1283Asn</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Splenomegaly</Data></Cell>
+    <Cell><Data ss:Type="String">Dutch</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">Fallots_tetrolgy</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="String">3C</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/20176027)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.41</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.2779-2G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Glu974Glyfs*19</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.2779-2G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Glu974Glyfs*19</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Fibrosis</Data></Cell>
+    <Cell><Data ss:Type="String">Pakistani</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">Mild_aortic_insufficiency</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">++</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">4C</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/20176027)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2.5</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.22</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.1632+1delG</Data></Cell>
+    <Cell><Data ss:Type="String">p.Glu545Phefs*40</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.1632+1delG</Data></Cell>
+    <Cell><Data ss:Type="String">p.Glu545Phefs*40</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Fibrosis</Data></Cell>
+    <Cell><Data ss:Type="String">Kurdish</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="String">5C</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/20176027)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">3.5</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">0.98</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">90</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.2779-2G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Glu974Glyfs*19</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.2779-2G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Glu974Glyfs*19</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Fibrosis</Data></Cell>
+    <Cell><Data ss:Type="String">Pakistani</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">Pulmonary_stenosis</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="String">6C</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/20176027)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.1666666670000001</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.751G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Phe215Glufs*14</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.751G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Phe215Glufs*14</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Pakistani</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="String">7C</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/20176027)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">died 8</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2.4</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">150</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">Stop</Data></Cell>
+    <Cell><Data ss:Type="String">c.2808G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Trp936X</Data></Cell>
+    <Cell><Data ss:Type="String">Stop</Data></Cell>
+    <Cell><Data ss:Type="String">c.2808G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Trp936x</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">liver disease</Data></Cell>
+    <Cell><Data ss:Type="String">Pakistani</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Died</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String" x:Ticked="1">++</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="String">8C</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/20176027)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">3.58</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.1300_1301delAA</Data></Cell>
+    <Cell><Data ss:Type="String">p.Lys434Lysfs*14</Data></Cell>
+    <Cell><Data ss:Type="String">Missense</Data></Cell>
+    <Cell><Data ss:Type="String">c.4514T&gt;C</Data></Cell>
+    <Cell><Data ss:Type="String">p.Leu1505Ser</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">English</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="String">9C</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/20176027)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">0.78</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.439C&gt;T</Data></Cell>
+    <Cell><Data ss:Type="String">p.Gln147X</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.2251C&gt;T</Data></Cell>
+    <Cell><Data ss:Type="String">p.Gln751_</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Italian</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">Aortic_insufficiency</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String" x:Ticked="1">++</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="String">10C</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/20176027)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.7</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">Missense</Data></Cell>
+    <Cell><Data ss:Type="String">c.3847G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Asp1283Asn</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Flemish</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">11C</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/20176027)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.375</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">Stop</Data></Cell>
+    <Cell><Data ss:Type="String">c.2808G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Trp936X</Data></Cell>
+    <Cell><Data ss:Type="String">Stop</Data></Cell>
+    <Cell><Data ss:Type="String">c.2808G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Trp936X</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Adenopathy</Data></Cell>
+    <Cell><Data ss:Type="String">Pakistani</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">JPGN(http://journals.lww.com/jpgn/Citation/2013/09000/A_New_Genetic_Mutation_in_a_Patient_With_Syndromic.1.aspx)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">died 1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">Splice site</Data></Cell>
+    <Cell><Data ss:Type="String">c.2921-2G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Fibrosis</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Died</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/19568536)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">3.5</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Fibrosis</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/19568536)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">3.9</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/19568536)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">36</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.6</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Mild</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/19568536)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2.6</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/19568536)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">3.5</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2.7</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/19568536)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.5</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.8</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Mild</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/19568536)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2.2000000000000002</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Mild</Data></Cell>
+    <Cell><Data ss:Type="String">Steatosis</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/25064072)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">SKIV2L</Data></Cell>
+    <Cell><Data ss:Type="String">Deletion</Data></Cell>
+    <Cell><Data ss:Type="String">c.3561_3581del</Data></Cell>
+    <Cell><Data ss:Type="String">p.(Ser1189_Leu1195del)</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="String">c.3561_3581del</Data></Cell>
+    <Cell><Data ss:Type="String">p.(Ser1189_Leu1195del)</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Kuwaitians</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/25064072)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">SKIV2L</Data></Cell>
+    <Cell><Data ss:Type="String">Stop</Data></Cell>
+    <Cell><Data ss:Type="String">c.848G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.(Trp283*)</Data></Cell>
+    <Cell><Data ss:Type="String">Missense</Data></Cell>
+    <Cell><Data ss:Type="String">c.1022T&gt;G</Data></Cell>
+    <Cell><Data ss:Type="String">p.Val341Gly</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">French</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/25064072)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">Stop</Data></Cell>
+    <Cell><Data ss:Type="String">c.3960C&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.(Tyr1320*)</Data></Cell>
+    <Cell><Data ss:Type="String">Stop</Data></Cell>
+    <Cell><Data ss:Type="String">c.3960C&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.(Tyr1320*)</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">French</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/25064072)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">Stop</Data></Cell>
+    <Cell><Data ss:Type="String">c.2808G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Trp936*</Data></Cell>
+    <Cell><Data ss:Type="String">Stop</Data></Cell>
+    <Cell><Data ss:Type="String">c.2808G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Trp936*</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Pakistani</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/25064072)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.2779-2G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Glu974Glyfs*19</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.2779-2G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Glu974Glyfs*19</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Pakistani</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/22444670)</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">SKIV2L</Data></Cell>
+    <Cell><Data ss:Type="String">Insertion</Data></Cell>
+    <Cell><Data ss:Type="String">c.1635_1636insA</Data></Cell>
+    <Cell><Data ss:Type="String">p.Gly546Argfs*35</Data></Cell>
+    <Cell><Data ss:Type="String">Insertion</Data></Cell>
+    <Cell><Data ss:Type="String">c.1635_1636insA</Data></Cell>
+    <Cell><Data ss:Type="String">p.Gly546Arg*35</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">North_African</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/22444670)</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">SKIV2L</Data></Cell>
+    <Cell><Data ss:Type="String">Stop</Data></Cell>
+    <Cell><Data ss:Type="String">c.2266C&gt;T</Data></Cell>
+    <Cell><Data ss:Type="String">p.Arg756*</Data></Cell>
+    <Cell><Data ss:Type="String">Stop</Data></Cell>
+    <Cell><Data ss:Type="String">c.2442G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Trp814*</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">French</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/22444670)</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">SKIV2L</Data></Cell>
+    <Cell><Data ss:Type="String">Stop</Data></Cell>
+    <Cell><Data ss:Type="String">c.848G&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Trp283*</Data></Cell>
+    <Cell><Data ss:Type="String">Missense</Data></Cell>
+    <Cell><Data ss:Type="String">c.1022T&gt;G</Data></Cell>
+    <Cell><Data ss:Type="String">p.Val341Gly</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">French</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/22444670)</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">SKIV2L</Data></Cell>
+    <Cell><Data ss:Type="String">Deletion</Data></Cell>
+    <Cell><Data ss:Type="String">c.2572del</Data></Cell>
+    <Cell><Data ss:Type="String">p.Val858*</Data></Cell>
+    <Cell><Data ss:Type="String">Deletion</Data></Cell>
+    <Cell><Data ss:Type="String">c.2752del</Data></Cell>
+    <Cell><Data ss:Type="String">p.Val858*</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Turkey</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/22444670)</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">SKIV2L</Data></Cell>
+    <Cell><Data ss:Type="String">Deletion</Data></Cell>
+    <Cell><Data ss:Type="String">c.2662_2663del</Data></Cell>
+    <Cell><Data ss:Type="String">p.Arg88Glyfs*12</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.2662_2663del</Data></Cell>
+    <Cell><Data ss:Type="String">p.Arg88Glyfs*12</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Turkey</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/22444670)</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">SKIV2L</Data></Cell>
+    <Cell><Data ss:Type="String">Deletion</Data></Cell>
+    <Cell><Data ss:Type="String">c.1434del</Data></Cell>
+    <Cell><Data ss:Type="String">p.Ser479Alafs*3</Data></Cell>
+    <Cell><Data ss:Type="String">Deletion</Data></Cell>
+    <Cell><Data ss:Type="String">c.1434del</Data></Cell>
+    <Cell><Data ss:Type="String">p.Ser479Alafs*3</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Turkey</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">41</Data></Cell>
+    <Cell><Data ss:Type="String">1(2)</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/?term=Novel+mutations+in+TTC37+associated+with+tricho-hepato-enteric+syndrome)</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.326_330delTGCCT </Data></Cell>
+    <Cell><Data ss:Type="String">p.Leu96TrpfsX10 </Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.326_330delTGCCT</Data></Cell>
+    <Cell><Data ss:Type="String">p.Leu96TrpfsX10</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Middle_Eastern</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">42</Data></Cell>
+    <Cell><Data ss:Type="String">1(2)</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/?term=Novel+mutations+in+TTC37+associated+with+tricho-hepato-enteric+syndrome)</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.326_330delTGCCT </Data></Cell>
+    <Cell><Data ss:Type="String">p.Leu96TrpfsX10</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.326_330delTGCCT</Data></Cell>
+    <Cell><Data ss:Type="String">p.Leu96TrpfsX10</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Middle_Eastern</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">43</Data></Cell>
+    <Cell><Data ss:Type="String">2(1)</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/?term=Novel+mutations+in+TTC37+associated+with+tricho-hepato-enteric+syndrome)</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.1168delA </Data></Cell>
+    <Cell><Data ss:Type="String">p.Val390PheFsX419</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.3564-2A &gt;G </Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">French</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell><Data ss:Type="String">3(1)</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/?term=Novel+mutations+in+TTC37+associated+with+tricho-hepato-enteric+syndrome)</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">Splice site</Data></Cell>
+    <Cell><Data ss:Type="String">c.2515+1G&gt;C</Data></Cell>
+    <Cell><Data ss:Type="String">p.Cys813ValfsX56 </Data></Cell>
+    <Cell><Data ss:Type="String">Splice site</Data></Cell>
+    <Cell><Data ss:Type="String">c.2515+1G&gt;C</Data></Cell>
+    <Cell><Data ss:Type="String">p.Cys813ValfsX56 </Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">North_African</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="String">4(1)</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/?term=Novel+mutations+in+TTC37+associated+with+tricho-hepato-enteric+syndrome)</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.2577-7_-3DelTTTTT </Data></Cell>
+    <Cell><Data ss:Type="String">p.Asn860_878GluDel</Data></Cell>
+    <Cell><Data ss:Type="String">Splice site</Data></Cell>
+    <Cell><Data ss:Type="String">c.4620+1G&gt;C </Data></Cell>
+    <Cell><Data ss:Type="String">p.Trp1524_1564DelIns61</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">French</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">46</Data></Cell>
+    <Cell><Data ss:Type="String">5(1)</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/?term=Novel+mutations+in+TTC37+associated+with+tricho-hepato-enteric+syndrome)</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">c.3015-1C&gt;T </Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Missense</Data></Cell>
+    <Cell><Data ss:Type="String">c.4454T&gt;G</Data></Cell>
+    <Cell><Data ss:Type="String">p.Leu1485Arg</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">French</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String">6(1)</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/?term=Novel+mutations+in+TTC37+associated+with+tricho-hepato-enteric+syndrome)</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">Missense</Data></Cell>
+    <Cell><Data ss:Type="String">c.3808C&gt;G</Data></Cell>
+    <Cell><Data ss:Type="String">p.Pro1270Ala</Data></Cell>
+    <Cell><Data ss:Type="String">Missense</Data></Cell>
+    <Cell><Data ss:Type="String">c.3808C&gt;G</Data></Cell>
+    <Cell><Data ss:Type="String">p.Pro1270Ala</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">North_African</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">48</Data></Cell>
+    <Cell><Data ss:Type="String">7(1)</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/?term=Novel+mutations+in+TTC37+associated+with+tricho-hepato-enteric+syndrome)</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">Stop</Data></Cell>
+    <Cell><Data ss:Type="String">c.3960C&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Tyr1320X</Data></Cell>
+    <Cell><Data ss:Type="String">Stop</Data></Cell>
+    <Cell><Data ss:Type="String">c.3960C&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Tyr1320X</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">North_African</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">49</Data></Cell>
+    <Cell><Data ss:Type="String">8(1)</Data></Cell>
+    <Cell><Data ss:Type="String">NCBI (http://www.ncbi.nlm.nih.gov/pubmed/?term=Novel+mutations+in+TTC37+associated+with+tricho-hepato-enteric+syndrome)</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">TTC37</Data></Cell>
+    <Cell><Data ss:Type="String">Missense</Data></Cell>
+    <Cell><Data ss:Type="String">c.3230C&gt;A</Data></Cell>
+    <Cell><Data ss:Type="String">p.Ala1077Asp</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">French</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.68</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">17.5</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Cirrhosis</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Died</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">51</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.62</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Cirrhosis</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Died</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">52</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2.1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">168</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Mild</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">53</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.52</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Enteral nutrition</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Mild</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">54</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.48</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Severe</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Died</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.94</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Severe</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Died</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2.67</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Severe</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Died</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.18</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Severe</Data></Cell>
+    <Cell><Data ss:Type="String">Cirrhosis</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Died</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">42</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Severe</Data></Cell>
+    <Cell><Data ss:Type="String">Cirrhosis</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Died</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">19.5</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">10.5</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Mild</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.41</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">17.5</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Cirrhosis</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Died</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">61</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.86</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Mild</Data></Cell>
+    <Cell><Data ss:Type="String">Cirrhosis</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Died</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">62</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.8</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">63</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.345</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">64</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Severe</Data></Cell>
+    <Cell><Data ss:Type="String">Cirrhosis</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">65</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.24</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Cirrhosis</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">66</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2.2000000000000002</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Cirrhosis</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">67</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2.1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Mild</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">68</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2.14</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Mild</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">69</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.98</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Severe</Data></Cell>
+    <Cell><Data ss:Type="String">Cirrhosis</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Died</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.01</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Mild</Data></Cell>
+    <Cell><Data ss:Type="String">Cirrhosis</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">71</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2.86</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">72</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Severe</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">73</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.24</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Severe</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">-</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">74</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">NCBI ( http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2279108/pdf/1750-1172-3-6.pdf)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ND</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1.0449999999999999</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">Severe</Data></Cell>
+    <Cell><Data ss:Type="String">Cirrhosis</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">+</Data></Cell>
+    <Cell><Data ss:Type="String">Alive</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+    <Cell><Data ss:Type="String">ND</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Severity classifications</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3"><Data ss:Type="String">Mild</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3"><Data ss:Type="String">Moderate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3"><Data ss:Type="String">Severe</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Notes</Data></Cell>
+    <Cell><Data ss:Type="String">Patient</Data></Cell>
+    <Cell><Data ss:Type="String">Assumption</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String"> 2 months = 60 days</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">23-29,50-74</Data></Cell>
+    <Cell><Data ss:Type="String">full term = 40 weeks</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">23-29</Data></Cell>
+    <Cell><Data ss:Type="String">6/7 (86%) facial dysmorphism</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">23-29</Data></Cell>
+    <Cell><Data ss:Type="String">2/7 (28%) peg teeth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">23-29</Data></Cell>
+    <Cell><Data ss:Type="String">1/7 (14%) mental retardation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">23-29</Data></Cell>
+    <Cell><Data ss:Type="String">2/7 (28%) hyperkeratosis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">23-29</Data></Cell>
+    <Cell><Data ss:Type="String">1/7 (14%) goiter</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">6-9,16</Data></Cell>
+    <Cell><Data ss:Type="String">Normal= no developmental delay</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s80"><Data ss:Type="String">10-21</Data></Cell>
+    <Cell><Data ss:Type="String">Mild developmental delay= +</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3"><Data ss:Type="String">Developmental delay = ++</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3"><Data ss:Type="String">No developmental delay = -</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s80"><Data ss:Type="String">6-9</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Skeletal abnormality: Poor detention = +</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s80"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Skeletal abnormality: Perthes_disease</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <TopRowVisible>42</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>52</ActiveRow>
+     <ActiveCol>13</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
