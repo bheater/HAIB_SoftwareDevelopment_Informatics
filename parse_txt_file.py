@@ -114,12 +114,12 @@ for line in file_read:
 	patient_dict [patient_num] = {'patient_num':patient_num}
 	# Create dictionary of patient information to nest in patient dictionary by patient num as the key
 	patient_def_dict = {'patient_num':patient_num, 'patient_name':patient_name, 'data_source':data_source, 'age':age, 'gestation':gestation,\
-		'weight':weight, 'age_onset':age_onset, 'diarrhea':diarrhea, 'failure_to_thrive':failure_to_thrive, \
-		'facial_dysmorphism':facial_dysmorphism, 'hair':hair, 'trichorrhexis_nodosa':trichorrhexis_nodosa, 'iugr':iugr, 'immune_def':immune_def,\
-		'peg_teeth':peg_teeth, 'skin':skin, 'mental_retardation':mental_retardation, 'pn_age':pn_age, 'pn_duration':pn_duration, 'gene':gene,\
-		'mutation1_type':mutation1_type, 'cafe_au_lait':cafe_au_lait, 'cdna_mutation1':cdna_mutation1, 'protein_mutation1':protein_mutation1,\
-		'mutation2_type':mutation2_type, 'cdna_mutation2':cdna_mutation2, 'protein_mutation2':protein_mutation2, 'villous_atrophy':villous_atrophy,\
-		'liver_biopsy':liver_biopsy, 'ethnicity':ethnicity, 'sex':sex, 'consanguity':consanguity, 'outcome':outcome, 'cardiac_abnormality':cardiac_abnormality,\
+		'weight':weight, 'age_onset':age_onset, 'diarrhea':diarrhea, 'failure_to_thrive':failure_to_thrive, 'facial_dysmorphism':facial_dysmorphism,\
+		'hair':hair, 'trichorrhexis_nodosa':trichorrhexis_nodosa, 'iugr':iugr, 'immune_def':immune_def,	'peg_teeth':peg_teeth, 'skin':skin, \
+		'mental_retardation':mental_retardation, 'pn_age':pn_age, 'pn_duration':pn_duration, 'gene':gene, 'mutation1_type':mutation1_type,\
+		'cafe_au_lait':cafe_au_lait, 'cdna_mutation1':cdna_mutation1, 'protein_mutation1':protein_mutation1, 'mutation2_type':mutation2_type,\
+		'cdna_mutation2':cdna_mutation2, 'protein_mutation2':protein_mutation2, 'villous_atrophy':villous_atrophy, 'liver_biopsy':liver_biopsy,\
+		'ethnicity':ethnicity, 'sex':sex, 'consanguity':consanguity, 'outcome':outcome, 'cardiac_abnormality':cardiac_abnormality,\
 		'thrombocytosis':thrombocytosis, 'large_platelets':large_platelets, 'skeletal_abnormaltiy':skeletal_abnormaltiy, 'devlpmt_delay':devlpmt_delay }
 
 	patient_dict[patient_num] = patient_def_dict
@@ -156,10 +156,18 @@ for line in file_read:
 			gene_dict [patient_num]= gene_def_dict
 
 	# Create a dictionary of symptoms
+	symptom_dict = {'age':age, 'gestation':gestation, 'weight':weight, 'age_onset':age_onset, 'diarrhea':diarrhea, 'failure_to_thrive':failure_to_thrive,\
+		'facial_dysmorphism':facial_dysmorphism, 'hair':hair, 'trichorrhexis_nodosa':trichorrhexis_nodosa, 'iugr':iugr, 'immune_def':immune_def,\
+		'peg_teeth':peg_teeth, 'skin':skin, 'mental_retardation':mental_retardation, 'pn_age':pn_age, 'pn_duration':pn_duration, 'cafe_au_lait':cafe_au_lait,\
+		'villous_atrophy':villous_atrophy, 'liver_biopsy':liver_biopsy,'ethnicity':ethnicity, 'sex':sex, 'consanguity':consanguity, 'outcome':outcome,\
+		'cardiac_abnormality':cardiac_abnormality, 'thrombocytosis':thrombocytosis, 'large_platelets':large_platelets, 'skeletal_abnormaltiy':skeletal_abnormaltiy,\
+		'devlpmt_delay':devlpmt_delay }
 
 	# Create a dictionary of database information
 	db_dict = {'patient_name':patient_name, 'data_source':data_source}
 	
+pp.pprint (symptom_dict)
 pp.pprint (gene_dict)
 pp.pprint (patient_dict)
+
 file_close = file_open.close()
