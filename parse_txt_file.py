@@ -42,6 +42,11 @@ ethnicity_col = 29
 sex_col = 30
 consanguity_col = 31
 outcome_col = 32
+cardiac_abnormality_col = 33
+thrombocytosis_col = 34
+large_platelets_col = 35
+skeletal_abnormaltiy_col = 36
+devlpmt_delay_col = 37
 
 # Set empty dictionary of patient to add data
 patient_dict = {}
@@ -96,16 +101,26 @@ for line in file_read:
 	sex = data[sex_col]
 	consanguity = data[consanguity_col]
 	outcome = data[outcome_col]
+	cardiac_abnormality = data[cardiac_abnormality_col]
+	thrombocytosis = data[thrombocytosis]
+	large_platelets = data[large_platelets_col]
+	skeletal_abnormaltiy = data[skeletal_abnormaltiy_col]
+	devlpmt_delay = data[devlpmt_delay_col]
+
+
+
 
 	# Create dictionary of patients 
 	patient_dict [patient_num] = {'patient_num':patient_num}
+	# Create dictionary of patient information to nest in patient dictionary by patient num as the key
 	patient_def_dict = {'patient_num':patient_num, 'patient_name':patient_name, 'data_source':data_source, 'age':age, 'gestation':gestation,\
 		'weight':weight, 'age_onset':age_onset, 'diarrhea':diarrhea, 'failure_to_thrive':failure_to_thrive, \
 		'facial_dysmorphism':facial_dysmorphism, 'hair':hair, 'trichorrhexis_nodosa':trichorrhexis_nodosa, 'iugr':iugr, 'immune_def':immune_def,\
 		'peg_teeth':peg_teeth, 'skin':skin, 'mental_retardation':mental_retardation, 'pn_age':pn_age, 'pn_duration':pn_duration, 'gene':gene,\
 		'mutation1_type':mutation1_type, 'cafe_au_lait':cafe_au_lait, 'cdna_mutation1':cdna_mutation1, 'protein_mutation1':protein_mutation1,\
 		'mutation2_type':mutation2_type, 'cdna_mutation2':cdna_mutation2, 'protein_mutation2':protein_mutation2, 'villous_atrophy':villous_atrophy,\
-		'liver_biopsy':liver_biopsy, 'ethnicity':ethnicity, 'sex':sex, 'consanguity':consanguity, 'outcome':outcome}
+		'liver_biopsy':liver_biopsy, 'ethnicity':ethnicity, 'sex':sex, 'consanguity':consanguity, 'outcome':outcome, 'cardiac_abnormality':cardiac_abnormality,\
+		'thrombocytosis':thrombocytosis, 'large_platelets':large_platelets, 'skeletal_abnormaltiy':skeletal_abnormaltiy, 'devlpmt_delay':devlpmt_delay }
 
 	patient_dict[patient_num] = patient_def_dict
 	
