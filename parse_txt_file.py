@@ -5,7 +5,7 @@ import os, sys
 import pprint
 pp=pprint.PrettyPrinter(indent=0)
 
-file_open = open ("SKIV2L_TTC37_data_set.txt","r+")
+file_open = open ("SKIV2L_TTC37_gene_dataset.txt","r+")
 file_read = file_open.readlines()
 
 # Variables for column locations
@@ -54,11 +54,16 @@ patient_def_dict = {}
 mutation_dict = {}
 gene_def_dict = {}
 
+lines = file_read[0]
+line_list = lines.splitlines()
 # Iterate through each line in the text file, spliting the lines by the tabs
-for line in file_read:
-	#line = line.split('#')[0]
+for line in line_list:
+	print line
+	#line = line.splitlines('#')[0]
 	#if len(line) == 0:
 	#	continue
+	
+	#print line
 	data = line.split()
 	# Split at tabs is default: i.e. empty brackets.
 	# Insert space or comma in parenthesis () if that denotes separation.
@@ -165,9 +170,10 @@ for line in file_read:
 
 	# Create a dictionary of database information
 	db_dict = {'patient_name':patient_name, 'data_source':data_source}
-	
-pp.pprint (symptom_dict)
-pp.pprint (gene_dict)
+#print '-------------symptom_dict---------------'
+#pp.pprint (symptom_dict)
+#print '-------------gene_dict--------------'
+#pp.pprint (gene_dict)
 pp.pprint (patient_dict)
 
 file_close = file_open.close()
