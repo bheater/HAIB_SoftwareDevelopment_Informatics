@@ -188,12 +188,37 @@ for patient in patient_dict:
 		patient_def_dict['skin'], patient_def_dict['cafe_au_lait'], patient_def_dict['mental_retardation'], patient_def_dict['pn_age'], patient_def_dict['pn_duration'],\
 		patient_def_dict['villous_atrophy'], patient_def_dict['sex'], patient_def_dict['consanguity'], patient_def_dict['outcome'], patient_def_dict['cardiac_abnormality'],\
 		patient_def_dict['thrombocytosis'], patient_def_dict['large_platelets'], patient_def_dict['skeletal_abnormaltiy'], patient_def_dict['devlpmt_delay']]
-	print data_list
+	#print data_list
 	#line_array = np.array(data_list)
 	data_array.append(data_list)
-
+data_array.sort()
+print data_array
 booleans = [[np.nan if item=='ND' else item for item in each_list[:]] for each_list in data_array]
-print booleans
+#print booleans
 #print (data_array)
 fitted_data_array = imp.fit(booleans)
-print(imp.transform(booleans))
+final_data_array = imp.transform(booleans)
+print final_data_array
+# Support Vector Machine (SVM) analysis
+import matplotlib.pyplot as plt
+from sklearn import svm
+from matplotlib import style
+style.use("ggplot")
+#clf is classifier
+# X = array of features
+X=np.array(final_data_array)
+# y =array of labels
+y=[]
+for patient in patient_dict:
+	patient_def_dict = patient_dict[patient]
+	y.append(patient_def_dict['patient_num'])
+y.sort()
+#print y
+clf=svm.SVC(kernel='linear', C = 1.0)
+clf.fit(X,y)
+# code to plot results if only 2 data sets or X had 2 components instead of 12
+# w = clf.coef_[0]
+# print w
+# a = -w[0]/w[1]
+# xx = np.linspace(0,49)
+# yy = a * xx - clf.intercept_[0] / w[1]
