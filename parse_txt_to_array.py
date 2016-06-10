@@ -59,11 +59,9 @@ line_list = lines.splitlines()
 # Iterate through each line in the text file, spliting the lines by the tabs
 for line in line_list:
 	print line
-	#line = line.splitlines('#')[0]
-	#if len(line) == 0:
-	#	continue
-	
-	#print line
+	line = line.split('#')[0]
+	if len(line) == 0:
+		continue
 	data = line.split()
 	# Split at tabs is default: i.e. empty brackets.
 	# Insert space or comma in parenthesis () if that denotes separation.
@@ -160,12 +158,12 @@ for line in line_list:
 			gene_dict [patient_num]= gene_def_dict
 	
 	# Create a dictionary of symptoms
-	symptom_dict = {'age':age, 'gestation':gestation, 'weight':weight, 'age_onset':age_onset, 'diarrhea':diarrhea, 'failure_to_thrive':failure_to_thrive,\
+	symptom_dict = sorted({'age':age, 'gestation':gestation, 'weight':weight, 'age_onset':age_onset, 'diarrhea':diarrhea, 'failure_to_thrive':failure_to_thrive,\
 		'facial_dysmorphism':facial_dysmorphism, 'hair':hair, 'trichorrhexis_nodosa':trichorrhexis_nodosa, 'iugr':iugr, 'immune_def':immune_def,\
 		'peg_teeth':peg_teeth, 'skin':skin, 'mental_retardation':mental_retardation, 'pn_age':pn_age, 'pn_duration':pn_duration, 'cafe_au_lait':cafe_au_lait,\
 		'villous_atrophy':villous_atrophy, 'liver_biopsy':liver_biopsy,'ethnicity':ethnicity, 'sex':sex, 'consanguity':consanguity, 'outcome':outcome,\
 		'cardiac_abnormality':cardiac_abnormality, 'thrombocytosis':thrombocytosis, 'large_platelets':large_platelets, 'skeletal_abnormaltiy':skeletal_abnormaltiy,\
-		'devlpmt_delay':devlpmt_delay }
+		'devlpmt_delay':devlpmt_delay })
 
 	# Create a dictionary of database information
 	db_dict = {'patient_name':patient_name, 'data_source':data_source}
@@ -179,16 +177,23 @@ pp.pprint (patient_dict)
 file_close = file_open.close()
 
 import numpy as np
-
+from sklearn.preprocessing import Imputer
+# Imputation of missing values
+imp = Imputer(missing_values = 'NaN', strategy = 'most_frequent', axis = 0)
 data_array = []
-for patient in patient_dict:
-	print 'patient = '+ patient 
+for patient in patient_dict: 
 	patient_def_dict = patient_dict[patient]
-	data_list = [patient_def_dict['hair'], patient_def_dict['trichorrhexis_nodosa'], patient_def_dict['iugr'], patient_def_dict['immune_def'], patient_def_dict['peg_teeth'],\
+	# Initially include patient num for debugging purposes
+	data_list = [patient_def_dict['patient_num'], patient_def_dict['hair'], patient_def_dict['trichorrhexis_nodosa'], patient_def_dict['iugr'], patient_def_dict['immune_def'], patient_def_dict['peg_teeth'],\
 		patient_def_dict['skin'], patient_def_dict['cafe_au_lait'], patient_def_dict['mental_retardation'], patient_def_dict['pn_age'], patient_def_dict['pn_duration'],\
 		patient_def_dict['villous_atrophy'], patient_def_dict['sex'], patient_def_dict['consanguity'], patient_def_dict['outcome'], patient_def_dict['cardiac_abnormality'],\
 		patient_def_dict['thrombocytosis'], patient_def_dict['large_platelets'], patient_def_dict['skeletal_abnormaltiy'], patient_def_dict['devlpmt_delay']]
-	print (data_list)
+	print data_list
+	#line_array = np.array(data_list)
+	data_array.append(data_list)
 
-	line_array = np.array(data_list)
-	data_array.append(line_array)
+booleans = [[np.nan if item=='ND' else item for item in each_list[:]] for each_list in data_array]
+print booleans
+#print (data_array)
+fitted_data_array = imp.fit(booleans)
+print(imp.transform(booleans))
