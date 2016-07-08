@@ -1,4 +1,7 @@
 # This program filters patient screening demographic information based on patient numbers
+from sys import argv
+
+
 patno_file_open = open('PATNO.csv', 'r')
 patno_file_read = patno_file_open.readlines()
 patno_str = patno_file_read[0]
@@ -7,19 +10,22 @@ patno_list = patno_str.split(',')
 num_patno = len(patno_list)
 print 'Number of PATNO in patno_list= ', num_patno
 patno_file_open.close
+
+filter_file_data = argv[1]
+filter_file_name = filter_file_data+'.csv'
+
 # Open file with information on all patients
-file_open = open('ScreeningDemographics.csv', 'r')
+file_open = open(filter_file_name, 'r')
 # Read the file contents line by line, since each line correspconds to 1 patno
 file_read = file_open.readlines()
-#print file_read
-#line_list = []
-
 # Count the number of initial patients (lines)  
 # compare to final number of patients with exome data
 num_lines = len(file_read)
 num_init_pat = num_lines
 print "num_init_pat = ",num_init_pat
-exome_patient_file = open('exome_patients_screening_demogr.csv','w+')
+output_file_name = 'exome_'+filter_file_name
+print output_file_name
+exome_patient_file = open(output_file_name,'w+')
 titles = file_read[0]
 for line in file_read[1:]:
 	line_contents = line.splitlines()
@@ -38,15 +44,20 @@ for line in file_read[1:]:
 
 # Count final number of patients in newly written file
 exome_patient_file.close
-exome_patient_file = open('exome_patients_screening_demogr.csv','r')
+exome_patient_file = open(output_file_name,'r')
 new_file_read = exome_patient_file.readlines()
 #print new_file_read
 new_num_lines = len(new_file_read)
 num_exome_pat = new_num_lines
 print "num_exome_pat = ", num_exome_pat
-print num_exome_pat, 'patno found in exome_patients_screening_demogr.csv'
+print num_exome_pat, 'patno found in ', output_file_name
 exome_patient_file.close
 file_open.close
 
-with file('exome_patients_screening_demogr.csv', 'r') as original: data = original.read()
-with file('exome_patients_screening_demogr.csv', 'w') as modified: modified.write(titles + data)
+with file(output_file_name, 'r') as original: data = original.read()
+with file(output_file_name, 'w') as modified: modified.write(titles + data)
+
+# run with
+# python filter_csv_by_patno.py <filename>
+# python filter_csv_by_patno.py ScreeningDemographics
+# python filter_csv_by_patno.py Epworth_Sleepiness_Scale
