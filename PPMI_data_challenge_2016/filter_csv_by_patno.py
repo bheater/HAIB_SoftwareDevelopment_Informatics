@@ -20,13 +20,13 @@ num_lines = len(file_read)
 num_init_pat = num_lines
 print "num_init_pat = ",num_init_pat
 exome_patient_file = open('exome_patients_screening_demogr.csv','w+')
+titles = file_read[0]
 for line in file_read[1:]:
 	line_contents = line.splitlines()
 	line_str =  line_contents[0]
 	line_items = line.split(',')
 	patno = line_items[2].strip('"')
 	# Determine whether patno in patno list, if so write line to file
-	
 	if patno in patno_list:
 		exome_patient_file.write(line_str+'\n')
 	'''
@@ -45,4 +45,8 @@ new_num_lines = len(new_file_read)
 num_exome_pat = new_num_lines
 print "num_exome_pat = ", num_exome_pat
 print num_exome_pat, 'patno found in exome_patients_screening_demogr.csv'
+exome_patient_file.close
 file_open.close
+
+with file('exome_patients_screening_demogr.csv', 'r') as original: data = original.read()
+with file('exome_patients_screening_demogr.csv', 'w') as modified: modified.write(titles + data)
