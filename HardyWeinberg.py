@@ -7,21 +7,27 @@ from scipy.stats import chisquare
 import matplotlib.mlab as mlab
 import matplotlib.pyplot as plt
 from pprint import pprint
+from math import isinf
+import math
 
 # Counter for the number of inconsistent data points.
 
 
-def parseExacTsv(filename, num_inconsistent, inconsistencies,chisq_vals,Pvals):
+def parseExacTsv(filename, num_inconsistent, inconsistencies,chisq_vals,Pvals,negLog10):
 	# Pull and Parse ExAC Data for Calculations
-	with open(filename,'rb') as tsvin, open('exacChromPosPval.tsv', 'wb') as tsvout:
+	#with open(filename,'rb') as tsvin, open('exacChromPosPval.tsv', 'wb') as tsvout,open('exacHW.csv', 'wb') as csvout:
+	with open(filename,'rb') as tsvin, open('exacChromPosPval.tsv', 'wb') as tsvout,open('exacHW.csv', 'wb') as csvout:
 		tsvin = csv.reader(tsvin, delimiter='\t')
 		tsvout = csv.writer(tsvout, delimiter='\t')
+		csvout = csv.writer(csvout, delimiter=',')
 
 		for i, row in enumerate(tsvin):
 			#print row
 			if i >= 2:
 				chrom = str(row[0])
 				position = int(row[1])
+				ref = str(row[2])
+				alt = str(row[3])
 				#adjusted AC and AN were used because they corresponded to AC_Het and AC_Hom
 				alleleCount = int(row[7]) 
 				alleleNum = int(row[15])
@@ -30,14 +36,17 @@ def parseExacTsv(filename, num_inconsistent, inconsistencies,chisq_vals,Pvals):
 				# Verify that AC_Het+2*AC_Hom == alleleCount
 				alleleCountHet = int(row[23])
 				alleleCountHom = int(row[31])
-				num_inconsistent=HWcalcExac(alleleCount,alleleNum,alleleCountHet,alleleCountHom,num_inconsistent, inconsistencies,chisq_vals,Pvals)
+				num_inconsistent,expected,observed=HWcalcExac(alleleCount,alleleNum,alleleCountHet,alleleCountHom,num_inconsistent, inconsistencies,chisq_vals,Pvals,negLog10)
 				tsvout.writerow([chrom,position,Pvals[-1]])
+				#print [chrom,position,ref,alt,expected[0], expected[1], expected[2], observed[0], observed[1], observed[2], Pvals[-1]]
+				csvout.writerow([chrom,position,ref,alt,expected[0], expected[1], expected[2], observed[0], observed[1], observed[2],negLog10[-1]])
 				#print [chrom,position,Pvals[-1]]
+
 	return num_inconsistent
 
 
 
-def HWcalcExac(alleleCount,alleleNum,alleleCountHet,alleleCountHom,num_inconsistent,inconsistencies,chisq_vals,Pvals):
+def HWcalcExac(alleleCount,alleleNum,alleleCountHet,alleleCountHom,num_inconsistent,inconsistencies,chisq_vals,Pvals,negLog10):
 
 	verify = alleleCountHet+2*alleleCountHom
 	#print "Verify: " + str(verify) +" =? "+ str(alleleCount)
@@ -87,17 +96,24 @@ def HWcalcExac(alleleCount,alleleNum,alleleCountHet,alleleCountHom,num_inconsist
 	chisq = results[0]
 	chisq_vals.append(chisq)
 	Pval = results[1]
+	if math.isinf(abs(np.log10(Pval))):
+		negLog10.append(10000)
+	else:
+		negLog10.append(abs(math.log10(Pval)))
+
 	#if Pval<0.6:
 		#print Pval, expected,observed
 	Pvals.append(Pval)
 	#stats.append(results)
-	return num_inconsistent
+	return num_inconsistent, expected, observed
+
 
 
 if __name__ == "__main__":
 	num_inconsistent = 0
 	inconsistencies = []
 	Pvals = []
+	negLog10 = []
 	chisq_vals = []
 
 	exac_filename='exac_parsed.tsv'
@@ -106,7 +122,8 @@ if __name__ == "__main__":
 	total_files = len(exac_filelist) 
 	while file_num<total_files:
 		#print filelist[file_num]
-		num_inconsistent=parseExacTsv(exac_filelist[file_num],num_inconsistent, inconsistencies,chisq_vals,Pvals)
+		num_inconsistent=parseExacTsv(exac_filelist[file_num],num_inconsistent, inconsistencies,chisq_vals,Pvals,negLog10)
+		exit()
 		if file_num>0:
 			num_inconsistent +=num_inconsistent
 		#chisq_vals, Pvals, inconsistencies=HWcalc(alleleCount,alleleNum,alleleCountHet,alleleCountHom,i,num_inconsistent)
@@ -120,8 +137,8 @@ if __name__ == "__main__":
 	# Writing JSON data
 	with open('ExAC_inconsistencies.json', 'w') as f:
 		json.dump(inconsistencies, f)
-	with open('ExAC_Pval.json', 'w') as f:
-		json.dump(Pvals, f)
+	# with open('ExAC_Pval.json', 'w') as f:
+	# 	json.dump(Pvals, f)
 	n, bins, patches = plt.hist(inconsistencies,bins=[0, 10, 100, 1000, 10000, 100000, 1000000])
 	plt.xlabel('Magnitude of Inconsistency')
 	plt.ylabel('Occurances')
@@ -133,5 +150,4 @@ if __name__ == "__main__":
 	plt.show()
 
 # add manhattan plot of the pvalues
-
-
+# $ python ManhattanPlot.py --colors rgbk --cols 0,1,2 exac_manhattan.tsv --image exac_manhattan.rgbk.png
